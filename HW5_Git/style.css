@@ -1,0 +1,59 @@
+div > p {
+    background-color: rgb(109, 196, 237);
+    font-size: 24px;
+} 
+h3 {
+    color: brown; 
+    font-size: 24px; 
+  } 
+
+  .class {
+    color: olivedrab; 
+    font-size: 24px; 
+  }
+  #unique {
+    color: red; 
+    font-size: 24px; 
+  } 
+
+  p[attribute="attribute"] {
+    color: hotpink; 
+    font-size: 24px; 
+  } 
+
+  .container1 p.special1 {
+    color: magenta; 
+    font-size: 24px; 
+  } 
+
+  .container2 > p {
+    color: blue; 
+    font-size: 24px; 
+  } 
+
+  .container3 p.special2 {
+    color: gray; 
+    font-size: 24px; 
+    font-style: oblique;
+  } 
+
+  .parent {
+    font-size: 24px;
+    font-style: unset;
+} 
+
+.child {
+    font-size: 24px;
+    color: chartreuse;
+} 
+
+/*div > p: 0,0,0,2
+h3: 0,0,0,1
+.class: 0,0,2,0
+#unique: 0,1,0,0
+p[attribute="attribute"]: 0,0,1,1
+.container1 p.special1: 0,0,2,1
+.container2 > p: 0,0,1,1
+.container3 p.special2: 0,0,2,1
+.parent: 0,0,1,0
+.child: 0,0,1,0
