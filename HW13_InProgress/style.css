@@ -1,0 +1,36 @@
+.svg-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.svg-container2 {
+    width: 200px; 
+    height: 200px;
+    margin-left: 40%;
+  }
+  
+  @keyframes changeColors {
+    0% {
+      fill: blue; 
+      stroke: red; 
+    }
+    50% {
+      fill: green; 
+      stroke: orange; 
+    }
+    75% {
+        fill: darkmagenta; 
+        stroke: lightgreen; 
+      }
+    100% {
+      fill: blue; 
+      stroke: red; 
+    }
+  }
+  
+
+  .svg-container2 svg {
+    animation: changeColors 4s infinite alternate; 
+  }
